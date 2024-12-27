@@ -1,0 +1,55 @@
+.header {
+  background-color: #f1f1f1;
+  padding: 30px 20px;
+  text-align: center; /* This centers the header block horizontally */
+  border-bottom: 2px solid #ccc;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items in a column */
+ /* Center items horizontally */
+align-items: center;
+
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+   /* Align this text to the left */
+   padding-top: 50px;
+}
+
+.tagline {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left; /* Align this text to the left */
+}
+
+.get {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+  transition: background-color 0.3s;
+}
+
+.get:hover {
+  background-color: rgb(255, 85, 113);
+}
+.watch {
+  width: 600px;  /* Set the desired width */
+  height: 600px; /* Set the desired height */
+ 
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.col{
+  flex-direction: column;
+}

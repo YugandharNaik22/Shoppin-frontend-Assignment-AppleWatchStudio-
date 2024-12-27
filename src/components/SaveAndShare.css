@@ -1,0 +1,61 @@
+.band-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  justify-content: space-around;
+}
+
+.band-item {
+
+  padding: 15px;
+  border-radius: 10px;
+ 
+  text-align: center;
+  width: 190px;
+}
+
+.band-item img {
+  width: 100%;
+  height:150px;
+  border-radius: 8px;
+}
+
+.band-item p {
+  margin: 10px 0;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.save-btn,
+.share-btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+ margin: 5px;
+}
+
+.save-btn {
+  background-color: #f242a6;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: rgba(15, 173, 15, 0.944);
+}
+
+.share-btn {
+  background-color: #094675;
+  color: white;
+}
+
+.share-btn:hover {
+  background-color:  rgba(15, 173, 15, 0.944);
+}
+
+.selected {
+  border: 2px solid #3498db;
+}

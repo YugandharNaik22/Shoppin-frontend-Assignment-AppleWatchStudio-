@@ -1,0 +1,40 @@
+/* CaseSelection.css */
+.case-selection {
+    padding: 20px;
+  }
+  
+  .cases-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .case-item {
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .case-item img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .case-item.selected {
+    border-color: slateblue;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  .case-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .case-item p {
+    font-size: 14px;
+    color: #333;
+  }
+  

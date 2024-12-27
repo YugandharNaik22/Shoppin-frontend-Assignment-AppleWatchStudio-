@@ -1,0 +1,61 @@
+.size-selection {
+    margin: 30px 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .size-selection h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .size-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .size-btn {
+    background-color: slateblue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    width: auto;
+    min-width: 100px;
+  }
+  
+  .size-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .size-btn:focus {
+    outline: none;
+  }
+  
+  .size-btn.active {
+    background-color: #06c620; /* Light blue */
+    color: white;
+    border: 2px solid slateblue; /* Slightly darker blue border */
+    box-shadow: 0 6px 12px rgba(0, 122, 255, 0.3);
+    transform: scale(1.1);
+  }
+  
+  .size-btn.active:hover {
+    background-color: #06c620; /* Change color to the original on hover */
+    box-shadow: 0 8px 16px rgba(0, 122, 255, 0.3);
+  }
+  

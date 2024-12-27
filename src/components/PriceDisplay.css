@@ -1,0 +1,47 @@
+.price-display {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+   
+    transition: all 0.3s ease;
+    width: 300px; /* Adjust based on your layout */
+    margin: 40px auto;
+  }
+  
+  .price-display h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .price-display .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff002b; /* Blue color to highlight the price */
+    transition: color 0.3s ease;
+  }
+  
+  .price-display:hover {
+    background-color: #eef8ff;
+    box-shadow: 0 8px 16px rgba(0, 122, 255, 0.2);
+  }
+  
+  .price-display:hover .price {
+    color:slateblue; /* Darker blue when hovered */
+  }
+  
+  @media (max-width: 600px) {
+    .price-display {
+      width: 80%;
+    }
+  
+    .price-display h2 {
+      font-size: 22px;
+    }
+  
+    .price-display .price {
+      font-size: 28px;
+    }
+  }
+  
